@@ -9,7 +9,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
         {children}
-        <footer className='py-10 flex justify-center items center'> Hecho con Amor!</footer>
+        <footer className='py-10 flex justify-center items center'> Made with love!</footer>
       </body>
     </html>
   );
