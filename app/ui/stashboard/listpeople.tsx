@@ -60,7 +60,7 @@ export default async function ListPeople({
           <div className="md:hidden">
             {listPeople?.map((people) => (
               <div
-                key={people.id}
+                key={people.name}
                 className="mb-2 w-full rounded-md bg-white p-4"
               >
                 <div className="flex items-center justify-between border-b pb-4">
